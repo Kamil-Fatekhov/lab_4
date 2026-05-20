@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/l4/lab_4/build/cmake_install.cmake",
+		"D:/l4/lab_4/build/shared/cmake_install.cmake",
+		"D:/l4/lab_4/build/core/cmake_install.cmake",
+		"D:/l4/lab_4/build/core/p1_test_seidel/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

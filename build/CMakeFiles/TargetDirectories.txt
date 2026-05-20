@@ -1,0 +1,4 @@
+D:/l4/lab_4/build/CMakeFiles/ALL_BUILD.dir
+D:/l4/lab_4/build/CMakeFiles/ZERO_CHECK.dir
+D:/l4/lab_4/build/core/p1_test_seidel/CMakeFiles/solver_app.dir
+D:/l4/lab_4/build/core/p1_test_seidel/CMakeFiles/ALL_BUILD.dir

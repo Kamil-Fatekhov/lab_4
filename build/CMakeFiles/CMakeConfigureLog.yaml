@@ -1,0 +1,4274 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/"
+    found: "D:/cmakkeke/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.3.0-preview-25570-20+708535641 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 20.05.2026 13:43:02.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.85
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/l4/lab_4/build/CMakeFiles/4.3.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/gasen/bin/lld-link.com"
+      - "C:/Users/gasen/bin/lld-link.exe"
+      - "C:/Users/gasen/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.com"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/gasen/.dnx/bin/lld-link.com"
+      - "C:/Users/gasen/.dnx/bin/lld-link.exe"
+      - "C:/Users/gasen/.dnx/bin/lld-link"
+      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.com"
+      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.exe"
+      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lld-link"
+      - "D:/CMAKEE/bin/lld-link.com"
+      - "D:/CMAKEE/bin/lld-link.exe"
+      - "D:/CMAKEE/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "D:/Microsoft VS Code/bin/lld-link.com"
+      - "D:/Microsoft VS Code/bin/lld-link.exe"
+      - "D:/Microsoft VS Code/bin/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/ProgramData/mingw64/mingw64/bin/lld-link.com"
+      - "C:/ProgramData/mingw64/mingw64/bin/lld-link.exe"
+      - "C:/ProgramData/mingw64/mingw64/bin/lld-link"
+      - "C:/Program Files/LLVM/bin/lld-link.com"
+    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Users/gasen/bin/mt.com"
+      - "C:/Users/gasen/bin/mt.exe"
+      - "C:/Users/gasen/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.com"
+      - "C:/Program Files/Microsoft MPI/Bin/mt.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/gasen/.dnx/bin/mt.com"
+      - "C:/Users/gasen/.dnx/bin/mt.exe"
+      - "C:/Users/gasen/.dnx/bin/mt"
+      - "C:/Program Files/Microsoft DNX/Dnvm/mt.com"
+      - "C:/Program Files/Microsoft DNX/Dnvm/mt.exe"
+      - "C:/Program Files/Microsoft DNX/Dnvm/mt"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/mt"
+      - "D:/CMAKEE/bin/mt.com"
+      - "D:/CMAKEE/bin/mt.exe"
+      - "D:/CMAKEE/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "D:/Microsoft VS Code/bin/mt.com"
+      - "D:/Microsoft VS Code/bin/mt.exe"
+      - "D:/Microsoft VS Code/bin/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/ProgramData/mingw64/mingw64/bin/mt.com"
+      - "C:/ProgramData/mingw64/mingw64/bin/mt.exe"
+      - "C:/ProgramData/mingw64/mingw64/bin/mt"
+      - "C:/Program Files/LLVM/bin/mt.com"
+      - "C:/Program Files/LLVM/bin/mt.exe"
+      - "C:/Program Files/LLVM/bin/mt"
+      - "C:/Program Files (x86)/LLVM/bin/mt.com"
+      - "C:/Program Files (x86)/LLVM/bin/mt.exe"
+      - "C:/Program Files (x86)/LLVM/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "D:/cmakkeke/bin/mt.com"
+      - "D:/cmakkeke/bin/mt.exe"
+      - "D:/cmakkeke/bin/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/mt.com"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/mt.exe"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/mt"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/mt.com"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/mt"
+      - "D:/coddd/bin/mt.com"
+      - "D:/coddd/bin/mt.exe"
+      - "D:/coddd/bin/mt"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/gasen/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/gasen/.dnx/bin/"
+      - "C:/Program Files/Microsoft DNX/Dnvm/"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+      - "D:/CMAKEE/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "D:/Microsoft VS Code/bin/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/ProgramData/mingw64/mingw64/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/Program Files (x86)/LLVM/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/cmakkeke/bin/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/"
+      - "D:/coddd/bin/"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/cmakkeke/bin/"
+      - "D:/cmakkeke/sbin/"
+      - "D:/cmakkeke/"
+      - "C:/Program Files (x86)/lab3/bin/"
+      - "C:/Program Files (x86)/lab3/sbin/"
+      - "C:/Program Files (x86)/lab3/"
+    searched_directories:
+      - "C:/Users/gasen/bin/rc.com"
+      - "C:/Users/gasen/bin/rc.exe"
+      - "C:/Users/gasen/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Microsoft MPI/Bin/rc.com"
+      - "C:/Program Files/Microsoft MPI/Bin/rc.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/gasen/.dnx/bin/rc.com"
+      - "C:/Users/gasen/.dnx/bin/rc.exe"
+      - "C:/Users/gasen/.dnx/bin/rc"
+      - "C:/Program Files/Microsoft DNX/Dnvm/rc.com"
+      - "C:/Program Files/Microsoft DNX/Dnvm/rc.exe"
+      - "C:/Program Files/Microsoft DNX/Dnvm/rc"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/rc"
+      - "D:/CMAKEE/bin/rc.com"
+      - "D:/CMAKEE/bin/rc.exe"
+      - "D:/CMAKEE/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "D:/Microsoft VS Code/bin/rc.com"
+      - "D:/Microsoft VS Code/bin/rc.exe"
+      - "D:/Microsoft VS Code/bin/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/ProgramData/mingw64/mingw64/bin/rc.com"
+      - "C:/ProgramData/mingw64/mingw64/bin/rc.exe"
+      - "C:/ProgramData/mingw64/mingw64/bin/rc"
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/Program Files (x86)/LLVM/bin/rc.com"
+      - "C:/Program Files (x86)/LLVM/bin/rc.exe"
+      - "C:/Program Files (x86)/LLVM/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "D:/cmakkeke/bin/rc.com"
+      - "D:/cmakkeke/bin/rc.exe"
+      - "D:/cmakkeke/bin/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/rc.com"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/rc.exe"
+      - "C:/Program Files/OpenJDK/jdk-25/bin/rc"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/rc.com"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/bin/rc"
+      - "D:/coddd/bin/rc.com"
+      - "D:/coddd/bin/rc.exe"
+      - "D:/coddd/bin/rc"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "D:/cmakkeke/bin/rc.com"
+      - "D:/cmakkeke/bin/rc.exe"
+      - "D:/cmakkeke/bin/rc"
+      - "D:/cmakkeke/sbin/rc.com"
+      - "D:/cmakkeke/sbin/rc.exe"
+      - "D:/cmakkeke/sbin/rc"
+      - "D:/cmakkeke/rc.com"
+      - "D:/cmakkeke/rc.exe"
+      - "D:/cmakkeke/rc"
+      - "C:/Program Files (x86)/lab3/bin/rc.com"
+      - "C:/Program Files (x86)/lab3/bin/rc.exe"
+      - "C:/Program Files (x86)/lab3/bin/rc"
+      - "C:/Program Files (x86)/lab3/sbin/rc.com"
+      - "C:/Program Files (x86)/lab3/sbin/rc.exe"
+      - "C:/Program Files (x86)/lab3/sbin/rc"
+      - "C:/Program Files (x86)/lab3/rc.com"
+      - "C:/Program Files (x86)/lab3/rc.exe"
+      - "C:/Program Files (x86)/lab3/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-ovg98h"
+      binary: "D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-ovg98h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-ovg98h'
+        
+        Run Build Command(s): "D:/vs 26/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5b09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.3.0-preview-25570-20+708535641 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 20.05.2026 13:43:03.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovg98h\\cmTC_e5b09.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovg98h\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_e5b09.dir\\Debug\\cmTC_e5b09.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_e5b09.dir\\Debug\\cmTC_e5b09.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_e5b09.dir\\Debug\\cmTC_e5b09.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e5b09.dir\\Debug\\\\" /Fd"cmTC_e5b09.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\cmakkeke\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35720 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e5b09.dir\\Debug\\\\" /Fd"cmTC_e5b09.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "D:\\cmakkeke\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovg98h\\Debug\\cmTC_e5b09.exe" /INCREMENTAL /ILK:"cmTC_e5b09.dir\\Debug\\cmTC_e5b09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-ovg98h/Debug/cmTC_e5b09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-ovg98h/Debug/cmTC_e5b09.lib" /MACHINE:X64  /machine:x64 cmTC_e5b09.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e5b09.vcxproj -> D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovg98h\\Debug\\cmTC_e5b09.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_e5b09.dir\\Debug\\cmTC_e5b09.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_e5b09.dir\\Debug\\cmTC_e5b09.tlog\\cmTC_e5b09.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovg98h\\cmTC_e5b09.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35720.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "core/p1_test_seidel/CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/"
+    found: "D:/cmakkeke/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "core/p1_test_seidel/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.3.0-preview-25570-20+708535641 ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 20.05.2026 13:43:04.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\4.3.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.83
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/l4/lab_4/build/CMakeFiles/4.3.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "core/p1_test_seidel/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-2kjcp3"
+      binary: "D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-2kjcp3"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-2kjcp3'
+        
+        Run Build Command(s): "D:/vs 26/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_280cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.3.0-preview-25570-20+708535641 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 20.05.2026 13:43:05.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2kjcp3\\cmTC_280cd.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2kjcp3\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_280cd.dir\\Debug\\cmTC_280cd.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_280cd.dir\\Debug\\cmTC_280cd.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_280cd.dir\\Debug\\cmTC_280cd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_280cd.dir\\Debug\\\\" /Fd"cmTC_280cd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\cmakkeke\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.50.35720 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_280cd.dir\\Debug\\\\" /Fd"cmTC_280cd.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "D:\\cmakkeke\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\vs 26\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2kjcp3\\Debug\\cmTC_280cd.exe" /INCREMENTAL /ILK:"cmTC_280cd.dir\\Debug\\cmTC_280cd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-2kjcp3/Debug/cmTC_280cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/l4/lab_4/build/CMakeFiles/CMakeScratch/TryCompile-2kjcp3/Debug/cmTC_280cd.lib" /MACHINE:X64  /machine:x64 cmTC_280cd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_280cd.vcxproj -> D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2kjcp3\\Debug\\cmTC_280cd.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_280cd.dir\\Debug\\cmTC_280cd.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_280cd.dir\\Debug\\cmTC_280cd.tlog\\cmTC_280cd.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "D:\\l4\\lab_4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2kjcp3\\cmTC_280cd.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "core/p1_test_seidel/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmakkeke/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/cmakkeke/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "core/p1_test_seidel/CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/vs 26/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35720.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    name: "TBB"
+    configs:
+      -
+        filename: "TBB.cps"
+        kind: "cps"
+      -
+        filename: "tbb.cps"
+        kind: "cps"
+      -
+        filename: "TBBConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "tbb-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "TBB"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/l4/lab_4/build/CMakeFiles/pkgRedirects/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/mingw64/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/.dnx/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft DNX/Dnvm/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft SQL Server/120/Tools/Binn/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/Microsoft VS Code/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/mingw64/mingw64/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/cmakkeke/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/OpenJDK/jdk-25/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/maven/apache-maven-3.9.14/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/coddd/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/gasen/AppData/Local/Microsoft/WindowsApps/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/vendor_perl/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/usr/bin/core_perl/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/TBBConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/tbb-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/TBB.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/tbb.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbb12.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbb12_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbb12.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbb12_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_proxy.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_proxy_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_proxy.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_proxy_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbb12.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbb12_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbb12.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbb12_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbb12_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:79 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_release_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_proxy.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:87 (find_library)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "library"
+    variable: "_tbb_debug_lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy_debug.lib"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/lib/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/lib/intel64/vc14/tbbmalloc_proxy_debug.lib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/lab3/bin"
+        - "D:/cmakkeke/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:107 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_release_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_proxy.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/oneapi-tbb-2023.0.0/lib/cmake/tbb/TBBConfig.cmake:115 (find_file)"
+      - "core/p1_test_seidel/CMakeLists.txt:8 (find_package)"
+    mode: "file"
+    variable: "_tbb_debug_dll"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tbbmalloc_proxy_debug.dll"
+    candidate_directories:
+      - "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/vc14/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/bin/"
+      - "D:/oneapi-tbb-2023.0.0/"
+    found: "D:/oneapi-tbb-2023.0.0/redist/intel64/vc14/tbbmalloc_proxy_debug.dll"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "D:\\oneapi-tbb-2023.0.0\\lib\\cmake\\tbb"
+      ENV{PATH}:
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\gasen\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\ProgramData\\mingw64\\mingw64\\bin"
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\LLVM\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit"
+        - "D:\\cmakkeke\\bin"
+        - "C:\\Program Files\\PuTTY"
+        - "C:\\Program Files\\OpenJDK\\jdk-25\\bin"
+        - "C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.14\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Windows\\System32\\OpenSSH"
+        - "C:\\Users\\gasen\\.dnx\\bin"
+        - "C:\\Program Files\\Microsoft DNX\\Dnvm"
+        - "C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn"
+        - "D:\\CMAKEE\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "D:\\coddd\\bin"
+        - "C:\\Users\\gasen\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\coddd\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/lab3"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/cmakkeke"
+        - "C:/Program Files (x86)/lab3"
+...

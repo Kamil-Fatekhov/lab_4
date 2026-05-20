@@ -1,0 +1,10 @@
+^D:\L4\LAB_4\CORE\P1_TEST_SEIDEL\CMAKELISTS.TXT
+setlocal
+D:\cmakkeke\bin\cmake.exe -SD:/l4/lab_4 -BD:/l4/lab_4/build --check-stamp-file D:/l4/lab_4/build/core/p1_test_seidel/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

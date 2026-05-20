@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeCXXInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeGenericSystem.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeRCInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Compiler/MSVC-CXX.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Compiler/MSVC.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Linker/MSVC-CXX.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Linker/MSVC.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/Windows.cmake
+D:/cmakkeke/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake
+D:/l4/lab_4/CMakeLists.txt
+D:/l4/lab_4/build/CMakeFiles/4.3.0-rc2/CMakeCXXCompiler.cmake
+D:/l4/lab_4/build/CMakeFiles/4.3.0-rc2/CMakeRCCompiler.cmake
+D:/l4/lab_4/build/CMakeFiles/4.3.0-rc2/CMakeSystem.cmake

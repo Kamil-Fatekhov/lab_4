@@ -1,4 +1,4 @@
-#add_subdirectory(p1_test_seidel)
+add_subdirectory(p1_test_seidel)
 #add_subdirectory(p2_test_sor)
 #add_subdirectory(p3_main_seidel)
 #add_subdirectory(p4_main_sor)
