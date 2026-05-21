@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/numeric_methods/lab4/lab_4/build/cmake_install.cmake",
+		"C:/numeric_methods/lab4/lab_4/build/shared/cmake_install.cmake",
+		"C:/numeric_methods/lab4/lab_4/build/core/cmake_install.cmake",
+		"C:/numeric_methods/lab4/lab_4/build/core/p5_main_sor/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,10 @@
+^C:\NUMERIC_METHODS\LAB4\LAB_4\CORE\P5_MAIN_SOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/numeric_methods/lab4/lab_4 -BC:/numeric_methods/lab4/lab_4/build --check-stamp-file C:/numeric_methods/lab4/lab_4/build/core/p5_main_sor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

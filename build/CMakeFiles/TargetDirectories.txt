@@ -1,0 +1,3 @@
+C:/numeric_methods/lab4/lab_4/build/CMakeFiles/ALL_BUILD.dir
+C:/numeric_methods/lab4/lab_4/build/CMakeFiles/ZERO_CHECK.dir
+C:/numeric_methods/lab4/lab_4/build/core/p5_main_sor/CMakeFiles/p5_main_sor.dir
