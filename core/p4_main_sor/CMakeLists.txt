@@ -1,13 +1,11 @@
-add_executable(p4_main_sor 
-    main.cpp
-    solver.cpp
-)
+cmake_minimum_required(VERSION 3.10)
+project(p4_main_sor)
 
-target_include_directories(p4_main_sor PRIVATE
-    ${CMAKE_SOURCE_DIR}/shared
-)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-target_link_libraries(p4_main_sor PRIVATE
-    shared
-    $<$<PLATFORM_ID:Linux,Darwin>:m>
-)
+# Указываем путь к папке shared через абсолютный путь
+# Выходим из p4_main_sor, выходим из core, заходим в shared
+include_directories("${CMAKE_SOURCE_DIR}/../../shared")
+
+add_executable(main main.cpp solver.cpp)
