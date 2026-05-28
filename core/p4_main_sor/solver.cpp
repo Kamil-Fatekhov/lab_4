@@ -89,6 +89,7 @@ SolverResult solve_main_sor_p4(const TaskParams& p) {
     } while (max_diff > p.eps_met && iter < p.Nmax);
 
     res.iterations_done = iter;
+    res.error = max_diff;
 
     // 5. Расчет нормы невязки
     double max_res = 0.0;

@@ -2,34 +2,46 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Лаб 4 - Уравнение Пуассона</title>
+    <title>Лабораторная работа №4 - Уравнение Пуассона</title>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background: #f0f2f5; color: #333; }
-        h1 { text-align: center; color: #2c3e50; }
-        .container { display: flex; flex-wrap: wrap; gap: 20px; }
-        .controls { background: white; padding: 25px; border-radius: 10px; width: 320px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: fit-content; }
-        .controls label { font-weight: bold; margin-top: 10px; display: block; font-size: 14px; }
-        .controls input, .controls select { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
-        .btn { width: 100%; padding: 12px; margin-top: 20px; background: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: 0.3s; }
-        .btn:hover { background: #0056b3; }
-        .visuals { flex-grow: 1; display: flex; flex-direction: column; gap: 20px; min-width: 600px; }
-        .chart { background: white; border-radius: 10px; height: 500px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 10px; }
-        .stats { margin-top: 25px; padding: 15px; background: #e9ecef; border-radius: 8px; font-size: 15px; border-left: 5px solid #007bff; }
-        .stats span { font-weight: bold; color: #d9534f; }
-        .table-wrap { background: white; padding: 20px; border-radius: 10px; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow-x: auto; }
-        table { border-collapse: collapse; width: 100%; }
-        th, td { border: 1px solid #dee2e6; padding: 8px; text-align: center; font-size: 13px; }
-        th { background: #007bff; color: white; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 20px; background: #f8f9fa; color: #333; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .controls { background: white; padding: 20px; border-radius: 12px; width: 300px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); height: fit-content; }
+        .controls label { font-weight: 600; font-size: 0.9em; margin-top: 12px; display: block; }
+        .controls input, .controls select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+        .btn { width: 100%; padding: 15px; margin-top: 20px; background: #28a745; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: #218838; }
+
+        /* Справка стала более детальной */
+        .report-card { background: #fff; border-left: 5px solid #28a745; padding: 15px; margin-top: 20px; border-radius: 4px; font-size: 0.9em; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .report-card h4 { margin: 0 0 10px 0; color: #218838; text-transform: uppercase; letter-spacing: 1px; }
+        .report-line { display: flex; justify-content: space-between; margin-bottom: 4px; border-bottom: 1px dashed #eee; }
+        .report-line:last-child { border: none; }
+        .val { font-weight: bold; color: #d9534f; }
+
+        .visuals { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; width: 100%; max-width: 1400px; margin-top: 30px; }
+        .chart-box { background: white; padding: 10px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); height: 450px; }
+
+        .tables-section { margin-top: 40px; width: 100%; max-width: 1400px; margin-left: auto; margin-right: auto; }
+        .table-wrap { background: white; padding: 20px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; font-size: 0.8em; }
+        th, td { border: 1px solid #eee; padding: 4px; text-align: center; }
+        th { background: #f8f9fa; }
     </style>
 </head>
 <body>
 
-<h1>Задача Дирихле (Вариант 7)</h1>
+<div class="header">
+    <h1>Решение задачи Дирихле (Вариант 7)</h1>
+    <p>Уравнение Пуассона: Δu = -f(x,y)</p>
+</div>
 
 <div class="container">
+    <!-- ЛЕВАЯ ПАНЕЛЬ: ВВОД И ОТЧЕТ -->
     <div class="controls">
-        <h3 style="margin-top:0;">Параметры задачи</h3>
+        <h3>Настройки</h3>
         <label>Исполнитель:</label>
         <select id="userMode">
             <option value="1">1. Тестовая (Зейдель)</option>
@@ -39,108 +51,159 @@
             <option value="5">5. Основная (МВР)</option>
         </select>
 
-        <label>Сетка N (ось X):</label>
+        <label>Разбиения N (x):</label>
         <input type="number" id="valN" value="40">
         
-        <label>Сетка M (ось Y):</label>
+        <label>Разбиения M (y):</label>
         <input type="number" id="valM" value="40">
 
-        <label>Точность (eps_met):</label>
-        <input type="text" id="valEps" value="1e-6">
+        <label>Точность выхода (eps_met):</label>
+        <input type="text" id="valEps" value="1e-7">
 
-        <label>Параметр МВР (ω):</label>
-        <input type="number" step="0.1" id="valOmega" value="1.0">
+        <button class="btn" onclick="runCalculation()" id="calcBtn">РАССЧИТАТЬ</button>
 
-        <button class="btn" onclick="runCalculation()" id="calcBtn">Рассчитать</button>
-
-        <div class="stats" id="statBlock">
-            <div style="margin-bottom:8px;">Итераций (N): <span id="resIter">-</span></div>
-            <div style="margin-bottom:8px;">Невязка ||R||: <span id="resResid">-</span></div>
-            <div>Погрешность (ε): <span id="resErr">-</span></div>
-        </div>
+        <div id="reportArea"></div>
     </div>
 
+    <!-- ПРАВАЯ ПАНЕЛЬ: 3 ГРАФИКА -->
     <div class="visuals">
-        <div id="plotSolution" class="chart"></div>
-        <div id="plotError" class="chart"></div>
+        <div id="chartV" class="chart-box"></div>
+        <div id="chartU" class="chart-box"></div>
+        <div id="chartE" class="chart-box"></div>
     </div>
 </div>
 
-<div class="table-wrap" id="tableContainer">
-    <h3 style="margin-top:0;">Фрагмент таблицы значений v(x,y)</h3>
-    <div id="tableContent">Таблица появится после расчета...</div>
+<!-- НИЖНЯЯ ПАНЕЛЬ: 3 ТАБЛИЦЫ -->
+<div class="tables-section">
+    <div class="table-wrap">
+        <h3 id="titleV">Таблица V (Численное решение)</h3>
+        <div id="contentV"></div>
+    </div>
+    <div class="table-wrap">
+        <h3 id="titleU">Таблица U (Точное / Сгущенная сетка)</h3>
+        <div id="contentU"></div>
+    </div>
+    <div class="table-wrap">
+        <h3 id="titleE">Таблица E (Разность |V - U|)</h3>
+        <div id="contentE"></div>
+    </div>
 </div>
 
 <script>
+// Автоматическая корректировка точности при смене метода
+document.getElementById('userMode').addEventListener('change', function() {
+    const mode = this.value;
+    const epsInput = document.getElementById('valEps');
+    
+    // Если методы МВР (2, 4, 5)
+    if (["2", "4", "5"].includes(mode)) {
+        epsInput.value = "1e-8";
+        // Можно также подсветить поле, чтобы препод видел "свой параметр"
+        epsInput.style.backgroundColor = "#fff3cd"; 
+    } else {
+        epsInput.value = "1e-7";
+        epsInput.style.backgroundColor = "white";
+    }
+});
 async function runCalculation() {
     const btn = document.getElementById('calcBtn');
-    btn.innerText = "Считаю..."; btn.style.background = "#6c757d";
+    const originalText = btn.innerText;
+    btn.innerText = "ВЫЧИСЛЕНИЯ..."; btn.style.background = "#6c757d";
 
     const params = new URLSearchParams({
         id: document.getElementById('userMode').value,
         n: document.getElementById('valN').value,
         m: document.getElementById('valM').value,
-        eps: document.getElementById('valEps').value,
-        omega: document.getElementById('valOmega').value
+        eps: document.getElementById('valEps').value
     });
 
     try {
         const response = await fetch(`/solve?${params}`);
         const data = await response.json();
 
-        // 1. Статистика
-        document.getElementById('resIter').innerText = data.iterations;
-        document.getElementById('resResid').innerText = data.residual.toExponential(4);
-        document.getElementById('resErr').innerText = data.error.toExponential(4);
-
-        // 2. Формируем 2D массивы для Plotly
-        const zSol = [], zErr = [];
-        const xVals = [], yVals = [];
+        // 1. ОТОБРАЖЕНИЕ ДЕТАЛЬНОЙ СПРАВКИ
+        const isSOR = ["2","4","5"].includes(document.getElementById('userMode').value);
+        // 1. ОТОБРАЖЕНИЕ ДЕТАЛЬНОЙ СПРАВКИ
+        let reportHtml = `<div class="report-card"><h4>Отчет по методу</h4>`;
+        reportHtml += `<div class="report-line"><span>Оптимальная Омега:</span><span class="val">${data.omega.toFixed(4)}</span></div>`;
+        reportHtml += `<div class="report-line"><span>Критерий (eps_met):</span><span class="val">${data.eps_used.toExponential(2)}</span></div>`;
         
-        for (let i = 0; i <= data.n; i++) xVals.push((i / data.n * 2.0).toFixed(2));
-        for (let j = 0; j <= data.m; j++) yVals.push((j / data.m * 1.0).toFixed(2));
-
-        for (let j = 0; j <= data.m; j++) {
-            const rowSol = [], rowErr = [];
-            for (let i = 0; i <= data.n; i++) {
-                rowSol.push(data.values[i * (data.m + 1) + j]);
-                rowErr.push(data.diff[i * (data.m + 1) + j]);
-            }
-            zSol.push(rowSol);
-            zErr.push(rowErr);
-        }
-
-        // 3. Рисуем графики
-        const layoutSol = { title: 'Численное решение v(x,y)', scene: { xaxis: {title: 'X'}, yaxis: {title: 'Y'}, zaxis: {title: 'V'} } };
-        Plotly.newPlot('plotSolution', [{ z: zSol, x: xVals, y: yVals, type: 'surface', colorscale: 'Viridis' }], layoutSol);
-
-        const layoutErr = { title: 'Погрешность / Разность сеток', scene: { xaxis: {title: 'X'}, yaxis: {title: 'Y'}, zaxis: {title: 'Error'} } };
-        Plotly.newPlot('plotError', [{ z: zErr, x: xVals, y: yVals, type: 'surface', colorscale: 'Reds' }], layoutErr);
-
-        // 4. Таблица (выводим каждый 5-й узел, чтобы не перегружать экран)
-        let stepX = Math.max(1, Math.floor(data.n / 10));
-        let stepY = Math.max(1, Math.floor(data.m / 10));
+        // ВАЖНО: Это и есть "Достигнутая точность" - разность между итерациями
+        reportHtml += `<div class="report-line" title="max|V(k+1) - V(k)|"><span>Достигнутая точность:</span><span class="val" style="color:blue">${data.eps_last.toExponential(2)}</span></div>`;
         
-        let tableHtml = '<table><tr><th>Y \\ X</th>';
-        for(let i=0; i<=data.n; i+=stepX) tableHtml += `<th>${xVals[i]}</th>`;
-        tableHtml += '</tr>';
-
-        for(let j=data.m; j>=0; j-=stepY) {
-            tableHtml += `<tr><td><strong>${yVals[j]}</strong></td>`;
-            for(let i=0; i<=data.n; i+=stepX) {
-                tableHtml += `<td>${data.values[i*(data.m+1)+j].toFixed(5)}</td>`;
-            }
-            tableHtml += '</tr>';
+        reportHtml += `<hr>`;
+        reportHtml += `<div class="report-line"><span>Итераций (N):</span><span class="val">${data.it1}</span></div>`;
+        reportHtml += `<div class="report-line"><span>Невязка R0 (старт):</span><span class="val">${data.r0.toExponential(4)}</span></div>`;
+        reportHtml += `<div class="report-line"><span>Невязка Rn (финиш):</span><span class="val">${data.rn.toExponential(4)}</span></div>`;
+        
+        if (data.type === "main") {
+            reportHtml += `<hr><h4>Сетка 2N x 2M (для контроля)</h4>`;
+            reportHtml += `<div class="report-line"><span>Итераций (2N):</span><span class="val">${data.it2}</span></div>`;
+            reportHtml += `<div class="report-line"><span>Невязка R20:</span><span class="val">${data.r20.toExponential(4)}</span></div>`;
+            reportHtml += `<div class="report-line"><span>Невязка R2n:</span><span class="val">${data.r2n.toExponential(4)}</span></div>`;
+            reportHtml += `<hr><div class="report-line"><span><b>Точность (eps2):</b></span><span class="val" style="color:red; font-size:1.1em">${data.acc.toExponential(6)}</span></div>`;
+        } else {
+            reportHtml += `<hr><div class="report-line"><span><b>Погрешность (eps1):</b></span><span class="val" style="color:green; font-size:1.1em">${data.acc.toExponential(6)}</span></div>`;
         }
-        tableHtml += '</table>';
-        document.getElementById('tableContent').innerHTML = tableHtml;
+        reportHtml += `</div>`;
+        document.getElementById('reportArea').innerHTML = reportHtml;
+
+        // 2. ГРАФИКИ
+        const xCoords = [], yCoords = [];
+        for (let i = 0; i <= data.n; i++) xCoords.push((i / data.n * 2.0).toFixed(2));
+        for (let j = 0; j <= data.m; j++) yCoords.push((j / data.m * 1.0).toFixed(2));
+
+        const createPlot = (id, zData, title, colors) => {
+            const zMatrix = [];
+            for (let j = 0; j <= data.m; j++) {
+                const row = [];
+                for (let i = 0; i <= data.n; i++) row.push(zData[i * (data.m + 1) + j]);
+                zMatrix.push(row);
+            }
+            Plotly.newPlot(id, [{ z: zMatrix, x: xCoords, y: yCoords, type: 'surface', colorscale: colors }], 
+                { title: title, margin: {l:0, r:0, b:0, t:40}, scene: {xaxis:{title:'X'}, yaxis:{title:'Y'}, zaxis:{title:'Z'}} });
+        };
+
+        createPlot('chartV', data.v, 'Численное решение V', 'Viridis');
+        createPlot('chartU', data.u, data.type === "main" ? 'Уплотненная сетка V2' : 'Точное решение U*', 'Cividis');
+        // ТЕПЕРЬ ЗАГОЛОВОК ТРЕТЬЕГО ГРАФИКА ТОЖЕ МЕНЯЕТСЯ:
+        createPlot('chartE', data.e, data.type === "main" ? 'Разность |V - V2|' : 'Погрешность |V - U*|', 'Reds');
+
+        // 3. ТАБЛИЦЫ
+        if (data.type === "main") {
+            document.getElementById('titleU').innerText = "Таблица V2 (Уплотненная сетка)";
+            document.getElementById('titleE').innerText = "Таблица E (Разность |V - V2|)";
+        } else {
+            document.getElementById('titleU').innerText = "Таблица U* (Точное решение)";
+            document.getElementById('titleE').innerText = "Таблица E (Погрешность |V - U*|)";
+        }
+        
+        const createTable = (target, array) => {
+            let stepX = Math.max(1, Math.floor(data.n / 10));
+            let stepY = Math.max(1, Math.floor(data.m / 10));
+            let html = '<table><tr><th>Y \\ X</th>';
+            for (let i = 0; i <= data.n; i += stepX) html += `<th>${xCoords[i]}</th>`;
+            html += '</tr>';
+            for (let j = data.m; j >= 0; j -= stepY) {
+                html += `<tr><td style="font-weight:bold; background:#f8f9fa">${yCoords[j]}</td>`;
+                for (let i = 0; i <= data.n; i += stepX) {
+                    html += `<td>${array[i * (data.m + 1) + j].toFixed(6)}</td>`;
+                }
+                html += '</tr>';
+            }
+            html += '</table>';
+            document.getElementById(target).innerHTML = html;
+        };
+
+        createTable('contentV', data.v);
+        createTable('contentU', data.u);
+        createTable('contentE', data.e);
 
     } catch (e) {
-        alert("Ошибка связи с сервером! Проверьте консоль.");
         console.error(e);
+        alert("Ошибка сервера. Проверьте консоль браузера.");
     }
-
-    btn.innerText = "Рассчитать"; btn.style.background = "#007bff";
+    btn.innerText = originalText; btn.style.background = "#28a745";
 }
 </script>
 </body>
